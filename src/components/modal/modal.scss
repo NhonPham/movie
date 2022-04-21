@@ -28,7 +28,10 @@
         position: relative;
 
         @include tablet {
-            width: 80px;
+            width: 80%;
+        }
+        @include mobile {
+            width: 80%;
         }
         &__close {
             position: absolute;
